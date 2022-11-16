@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.about-title {
+    width: 100%;
+
+}
+
+.about-cain {
+    width: 100%;
+    display: flex;
+    display: inline;
+    position: relative;
+}
+
+.about-img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    
+}
+
+.who-container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.who-title {
+    width: 100%;
+}
+
+.who-h2 {
+
+    font-size: 43px;
+    padding-left: 500px;
+    margin-top: 470px;
+}
+
+.who-p {
+    font-size: 18px;
+    color: #474747;
+    line-height: 25px;
+    padding: 15px 295px;
+    margin-bottom: 80px;
+}
+
+/* Maximize Opportunity. css */
+
+.features {
+    width: 100%;
+    background-color: #36b573;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 120px 0px 100px 0;
+    display: flex;
+}
+
+.maxi-container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.title1 {
+    margin-bottom: 10px;
+    margin-top: -30px;
+    font-size: 45px;
+    color: #fff;
+}
+
+.title2 {
+    color: #fff;
+    margin: 15px 10px 17px 10px;
+}
+
+.line {
+    background-color: #fff;
+    display: block;
+    width: 80px;
+    height: 5px;
+    align-items: center;
+    margin: 10px 10px 40px 600px;
+}
+
+.container-cain {
+    text-align: center;
+    width: 33.33%;
+    margin: 0 auto;
+    float: left;
+}
+
+.row {
+    padding: 10px 0px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.f-coll {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+.f-col-inner:hover {
+    background: rgba(255, 255, 255, .9);
+}
+
+.f-col-inner {
+    width: 100%;
+    height: 185px;
+    position: relative;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, .8);
+    padding-right: 30px;
+    margin-top: -5px;
+}
+
+.spain {
+    margin-left: 310px;
+    float: right;
+    background-color: #36b573;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #fff;
+    padding: 8px;
+}
+
+.h2 {
+    margin-bottom: 15px;
+    padding-left: 35px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.p {
+    margin-bottom: 30px;
+    padding-left: 35px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+/* Experience */
+
+.experience-container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.experience-title {
+    width: 100%;
+    text-align: center;
+}
+
+.experience-h2 {
+    font-size: 48px;
+    margin-top: 40px;
+}
+
+.experience-spain {
+    display: inline-block;
+    width: 90px;
+    height: 5px;
+    background-color: #36b573;
+    margin-top: 20px;
+}
+
+.experience-row {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.experience-left {
+    float: left;
+    width: 40%;
+}
+
+.experience-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.experience-right {
+    float: right;
+    width: 55%;
+}
+
+.experience-p {
+    font-size: 18px;
+    color: #666;
+    text-align: justify;
+    padding: 0px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}

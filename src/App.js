@@ -1,23 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+// Publisher
+//   import Publisher from './Components/Publisher/Publisher';
+//   import Quality from './Components/Publisher/Quality';
+//   import Become from './Components/Publisher/Become';
+
+/* Advertiser */
+  // import Advertiser from './Components/Advertiser/Advertiser';
+  // import Brand from './Components/Advertiser/Brand';
+
+/* AbotUs  */
+  import About from './Components/AboutUs/About';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+{/* Publisher */}
+
+       {/* <Publisher/>  */}
+       {/* <Quality /> */}
+       {/* <Become/>  */}
+
+{/* Advertiser */}
+    
+       {/* <Advertiser/> */}
+       {/* <Brand/> */}
+
+{/* AbotUs  */}
+
+       <About/>
+      
+
+      
+    
+  
+  
+    
     </div>
   );
 }

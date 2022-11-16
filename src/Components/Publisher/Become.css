@@ -1,0 +1,36 @@
+.become {
+    animation-name: fadInleft;
+    background: none;
+    text-align: center;
+    padding: 50px opx;
+    width: 100%;
+}
+
+.become-container{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+
+}
+
+.become-head {
+    width: 100%;
+    padding: 90px 0px;
+}
+
+.become-p {
+    font-size: 18px;
+    color: #474747;
+    line-height: 25px;
+    padding: 5px 20px;
+}
+
+.become-button {
+    background: #1eaca5;
+    color: #fff;
+    border-radius: 25px;
+    padding: 5px 30px;
+    font-size: 18px;
+    margin: 30px 10px 0px 10px;
+    border: none;
+}
